@@ -1,0 +1,226 @@
+.animacao-img-sobre {
+    animation-duration: 2s;
+    animation-name: teste;
+
+    animation-iteration-count: ;
+    animation-direction: alternate;
+}
+
+@keyframes teste {
+
+    from {
+        margin-left: 50%;
+
+
+    }
+
+    to {
+
+        margin-left: 0%;
+
+    }
+
+
+
+}
+
+
+
+
+html,
+body {
+
+    height: 100%;
+
+}
+
+
+/*------------------------ CSS HEADER ---------------------*/
+
+#comercial {
+
+    background-image: url("../img/Imagem1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: auto;
+    z-index: 1000;
+}
+
+header {
+
+    background-image: url("../img/img-destaque.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100%;
+
+}
+
+header nav {
+    padding: 3rem 5rem 3rem 10rem !important;
+}
+
+.menu a {
+
+    color: #FFF;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #ffe81f;
+    border-bottom: solid #FFe81F 1px;
+}
+
+.menu li {
+
+    padding: 0 1.3rem 0 1.3rem
+}
+
+#texto-destaque {
+
+    min-width: 80%;
+    position: absolute;
+    top: 43%;
+    left: 10%
+}
+
+#texto-destaque h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+#texto-destaque small {
+    font-size: 1.3rem;
+}
+
+#texto-destaque button {
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0);
+    border: solid #ffe81f 2px;
+    padding: 1.3rem 5rem;
+    color: #ffe81f;
+    font-weight: 700;
+}
+
+#texto-destaque button:hover {
+    background: #ffe81f;
+    transition: all 1s;
+    color: #50490a;
+}
+
+#btn-rolagem {
+
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+}
+
+#btn-rolagem:hover {
+    background: #343a40;
+    transition: all 1s;
+}
+
+#div-mobile {
+    display: none;
+}
+
+
+
+/*------------------------ CSS SESSÃO SOBRE e NOTICIA ---------------------*/
+
+#div-sobre p {
+    line-height: 2.5em;
+    text-align: justify
+}
+
+.font-w {
+    font-weight: bold;
+}
+
+#div-noticias div {
+    border: none !important;
+
+}
+
+.card div {
+
+    padding: 1.2rem 5rem 0 0;
+}
+
+.card-b:hover {
+    cursor: pointer;
+
+    opacity: 0.8;
+    transition: all 2s;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.1);
+}
+
+
+
+
+/*------------------------ CSS FOOTER ---------------------*/
+
+footer {
+
+    background-image: url("../img/img-footer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+
+}
+
+footer form {
+    margin-top: 15%;
+    padding: 0 3rem !important;
+}
+
+footer h2,
+#lista-contatos h5 {
+    color: #ffe81f
+}
+
+footer button {
+    background: #ffe81f;
+    width: 50%;
+}
+
+footer button:hover {
+    background: #058acf;
+    transition: all 1s;
+    color: #FFF;
+}
+
+#lista-contatos ul:first-child {
+    margin-top: 22%;
+    color: #FFF;
+
+}
+
+#lista-contatos ul li {
+    padding: 1rem 0;
+}
+
+.voltar-ao-topo {
+    position: absolute;
+    bottom: 1em;
+    right: 0;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(58, 111, 139, 0.9);
+    padding: 0.3em;
+  
+}
+
+.voltar-ao-topo:hover {
+    background-color: rgba(14, 43, 59, 0.82);
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+
+

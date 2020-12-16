@@ -1,0 +1,117 @@
+@media screen and (max-width: 980px) {
+
+    #texto-destaque {
+        min-width: 100%;
+        position: absolute;
+        text-align: center;
+        left: auto;
+        padding: 0 1rem;
+    }
+    #texto-destaque small {
+        font-size: 1rem;
+    }
+
+    #texto-destaque h1 {
+
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    #div-mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex !important;
+    }
+
+    header nav {
+        display: none !important;
+    }
+
+    #img-sobre {
+        display: none !important
+    }
+
+    #lista-contatos ul:first-child {
+        margin-top: 10%
+    }
+
+    #div-noticias {
+        flex-direction: column !important;
+
+    }
+
+    .card-b {
+        margin-bottom: 3rem !important;
+        padding: 0 1rem;
+    }
+
+
+
+    #div-sobre {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    #div-form {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    #div-noticias img {
+        height: 500px;
+    }
+
+    #sessao-sobre {
+        padding: 2rem 1rem !important;
+    }
+
+    #div-sobre h2,
+    #div-sobre p {
+        text-align: center;
+        margin-right: 0 !important
+    }
+
+    #lista-contatos {
+        margin-left: 10%
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    #div-noticias img {
+        height: 200px;
+    }
+    .menu a {
+        padding: 0 0.5rem !important
+    }
+
+    footer form {
+        margin-top: 15%;
+        padding: 1rem !important
+    }
+
+    #div-mobile {
+        padding: 0 !important
+    }
+
+    #texto-destaque h1 {
+        font-size: 2rem;
+    }
+
+
+    #texto-destaque button {
+
+        padding: 0.5rem 2rem;
+        margin-top: 10% !important
+    }
+
+    #btn-rolagem {
+
+        left:43%;
+    }
+
+}
